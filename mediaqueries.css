@@ -1,0 +1,258 @@
+@media (max-width: 901px) {
+    .nav-items {
+        display: none;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    nav{
+        height: 62px;
+    }
+    .mob-nav{
+        display: block;
+    }
+}
+@media (min-width: 902px){
+    .mob-nav{
+        display: none;
+    }
+}
+
+/* page1 */
+@media (max-width: 998px){
+    .home h1{
+        font-size: 45px;
+        font-family: "Poppins";
+        font-weight: 650;
+        line-height: 70px;
+        white-space: nowrap;
+    }
+    .home1 p{
+        font-family: 'Poppins';
+        font-size: 1.4rem;
+        font-weight: 300;
+        padding-left: 0;
+        white-space: nowrap;
+    }
+    #goto{
+        display: flex;
+        gap: 1rem;
+    }
+
+}
+@media (max-width: 537px){
+     #page1{
+        display: flex;
+        flex-direction: column; 
+        justify-content: start;
+        align-items: start;
+        padding-left: 8%;
+        gap: 0px;
+        animation: home 2s  ease;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        gap: 15px;
+        margin-top: 25%;
+        animation: none;
+    }
+    .home1{
+        border: 0;
+        margin-top: 5%;
+        padding: 0;
+        border: 0;
+        animation: none;
+    }
+    #goto{
+        display: flex;
+        gap: 0.75rem;
+    }
+}
+
+/* about me */
+@media (max-width: 1000px){
+    .about{
+        padding:8rem 0;
+        align-items: center;
+    }
+    .about h2{
+        font-size: 50px;
+        padding-bottom: 50vh;
+
+    }
+    .about p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 700px){
+    .about p{
+    width: 75%;
+    margin-right: 0;
+    text-align: left;
+    }
+    .about{
+        padding:4rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
+    .about h2{
+        padding-bottom: 0;
+        align-items: center;
+    }
+}
+
+/* skills */
+
+@media (max-width: 950px){
+    #page3 h2{
+        font-size: 35px;
+    }
+    #page3 h5{
+        font-weight: 400;
+    }
+    #svg .skillsclass{
+        column-gap: 5rem;
+    }
+}
+@media (max-width: 800px){
+    /* #page3{
+        padding:5rem 0;
+    } */
+    #svg .skillsclass{
+        column-gap: 3rem;
+    }
+}
+@media (max-width:730px){
+    #page3{
+        padding:4rem 0;
+    }
+    #svg .skillsclass{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #svg img{
+        width: 40px;
+        height: 40px;
+        margin: 10px 0;
+    }
+    #svg{
+        display: grid;
+        grid-template-rows:repeat(165px, 50px 50px);
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0rem;
+    }
+}
+
+/* projects */
+@media (max-width:1238px){
+    #project{
+        gap:1.5rem;
+    }
+    .card{
+        width: 250px;
+        height: 350px;
+        padding: 25px;
+    }
+    .img{
+        height: 250px;
+    }
+    .text{
+        padding: 20px 0px 0px  5px;
+    }
+    .text h6{
+        font-size: 16px;
+    }
+}
+@media (max-width:1088px){
+    #project{
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+}
+@media (max-width:700px){
+    .card{
+        width: 225px;
+        height: 325px;
+        padding: 25px;
+    }
+    .img{
+        height: 230px;
+    }
+    .text{
+        padding: 20px 0px 0px  5px;
+    }
+    .text h6{
+        font-size: 14px;
+    }
+    .hovertxt{
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: 300;
+    }
+}
+@media (max-width:550px){
+    .card{
+        padding: 18px;
+    }
+    .text{
+        padding-top:25px;
+    }
+    #project{
+        grid-template-columns: 1fr;
+    }
+}
+/* contact */
+
+@media (max-width: 950px){
+    #page4 h2{
+        font-size: 35px;
+    }
+    .contactip{
+        width: 400px;
+    }
+    .contact button{
+        width: 70px;
+    }
+}
+
+@media (max-width: 750px){
+    #page4{
+        gap: 25px;
+        padding: 70px 0;
+    }
+    .contact{
+        gap: 1rem;
+    }
+    .contactip{
+        width: 350px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    .contact button{
+        width: 70px;
+        padding: 4px;
+    }
+}
+@media (max-width: 550px){
+    #page4{
+        gap: 15px;
+        margin: 55px 0px;
+    }
+    .contact{
+        gap: 0.75rem;
+    }
+    .contactip{
+        width: 250px;
+        font-size: 12px;
+    }
+    .contact button{
+        width: 65px;
+    }
+}

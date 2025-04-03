@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header id="top">
+      <nav>
+        <div class="logo">M Khadar Basha Jilan</div>
+        <div class="nav-items">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#page2">About</a></li>
+          <li><a href="#page3">Skills</a></li>
+          <li><a href="#page4">Projects</a></li>
+          <li><a href="#copyr">Contact</a></li>
+          <li>
+            <i
+              style="text-decoration: none"
+              onclick="toggle()"
+              class="fa-solid fa-moon"
+            ></i>
+          </li>
+        </div>
+        <div class="mob-nav">
+          <span><i onclick="Hamburger()" class="fa-solid fa-bars"></i></span>
+          <div class="mob-items">
+            <li><a class="ham-items" href="#top">Home</a></li>
+            <li><a class="ham-items" href="#page2">About</a></li>
+            <li><a class="ham-items" href="#page3">Skills</a></li>
+            <li><a class="ham-items" href="#page4">Projects</a></li>
+            <li><a class="ham-items" href="#copyr">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="page1">
+      <div class="home">
+        <h1>FRONT-END <br />DEVELOPER</h1>
+        <div id="goto">
+          <a href="#page2"><button onclick="" id="view">View More</button></a>
+          <a
+            target="_blank"
+            title="Lets Connect!"
+            href="https://linkedin.com/in/khadarbashajilan/"
+            class="link"
+            ><i class="fa-brands fa-2xl fa-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            title="Github"
+            href="http://github.com/khadarbashajilan"
+            class="link"
+            ><i class="fa-brands fa-square-github fa-2xl"></i
+          ></a>
+          <a
+            target="_blank"
+            title="Resume"
+            href="https://drive.google.com/file/d/1Cx6PEk3uRanBe9ucGVDq0tWJgr7dcoix/view?usp=sharing"
+            class="link"
+            ><i class="fa-solid fa-download fa-xl"></i>
+          </a>
+        </div>
+      </div>
+      <div class="home1">
+        <p>Front - End <br />React Js <br />UI/UX</p>
+      </div>
+    </section>
+    <section id="page2">
+      <div class="about">
+        <h2>
+          ABOUT <br />
+          ME
+        </h2>
+        <p>
+          Hello! I'm
+          <b>Khadar</b>, an enthusiastic web developer at the beginning of an exciting
+          career journey. With a strong foundation in HTML, CSS, JavaScript. I
+          specialize in building responsive and dynamic user interfaces.
+          <br /><br />
+          I believe great websites aren't just visually appealing—they're
+          intuitive, accessible, and provide genuine value to users. When I'm
+          not coding, I'm constantly exploring emerging web technologies and
+          design trends to bring fresh perspectives to my work. I'm eager to
+          collaborate on projects where I can contribute my technical skills
+          while continuing to grow as a developer.
+        </p>
+      </div>
+    </section>
+    <section id="page3">
+      <div class="skills">
+        <h2>SKILLS</h2>
+        <div id="svg">
+          <div class="skillsclass">
+            <h5 style="white-space: nowrap">Web Development</h5>
+            <img title="HTML5" src="./src/html.svg" alt="" />
+            <img title="CSS3" src="./src/css.svg" alt="" />
+            <img title="JavaScript" src="./src/js.svg" alt="" />
+          </div>
+
+          <div class="skillsclass">
+            <h5>Libraries</h5>
+            <img title="React.js" src="./src/react.svg" alt="" />
+            <img title="GSAP" src="./src/gsap.svg" alt="" />
+          </div>
+
+          <div class="skillsclass">
+            <h5>Frameworks</h5>
+            <img title="Bootstrap" src="./src/bootstrap.svg" alt="" />
+          </div>
+
+          <div class="skillsclass">
+            <h5>Programming</h5>
+            <img title="Java" src="./src/java.svg" alt="" />
+          </div>
+
+          <div class="skillsclass">
+            <h5>Tools</h5>
+            <img title="Git" src="./src/git.svg" alt="" />
+            <img title="NPM" src="./src/npm.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="page4">
+      <h2>PROJECTS</h2><div id="project">
+        <div class="card">
+          <div class="img">
+            <img src="./projects/todo.png" alt="Project 1" />
+            <div class="hovertxt">
+              <p>
+                A simple and interactive Todo App built using HTML, CSS,
+                JavaScript, and Bootstrap. <br />This app helps you add, edit,
+                delete, and track your daily tasks efficiently.
+              </p>
+            </div>
+          </div>
+          <div class="text">
+            <h6>Todo App</h6>
+            <div class="links">
+              <a
+                href="https://github.com/khadarbashajilan/Todo-App"
+                target="_blank"
+                ><i class="fa-brands fa-xl fa-github"></i
+              ></a>
+              <a
+                href="https://todo-app-peach-six-41.vercel.app/"
+                target="_blank"
+                ><i class="fa-solid fa-lg fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./projects/shortener.png" alt="Project 2" />
+            <div class="hovertxt">
+              <p>
+                A simple and efficient web-based tool that allows users to
+                shorten long URLs into compact, shareable links. Additionally,
+                it generates a QR code for the shortened URL, making it easy to
+                share and access on mobile devices.
+              </p>
+            </div>
+          </div>
+          <div class="text">
+            <h6>Tiny-Link QR</h6>
+            <div class="links">
+              <a
+                href="https://github.com/khadarbashajilan/TinyLink-QR"
+                target="_blank"
+                ><i class="fa-brands fa-xl fa-github"></i
+              ></a>
+              <a href="https://tiny-link-qr.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-lg fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img
+              src="./projects/clock.png"
+              alt="Project 3"
+            />
+            <div class="hovertxt">
+              <p>
+                Digital Clock A simple digital clock that displays hours,
+                minutes, and seconds in real-time. Built using HTML, CSS, and
+                JavaScript. Fully responsive and designed for a clean, minimal
+                look.
+              </p>
+            </div>
+          </div>
+          <div class="text">
+            <h6>Digital Clock</h6>
+            <div class="links">
+              <a
+                href="https://github.com/khadarbashajilan/Digital_Clock"
+                target="_blank"
+                ><i class="fa-brands fa-xl fa-github"></i
+              ></a>
+              <a href="https://digital-clock-aypy.vercel.app/" target="_blank"
+                ><i class="fa-solid fa-lg fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img">
+            <img src="./projects/simons.png" alt="Project 4" />
+            <div class="hovertxt">
+              <p>
+                The Simon Game is a classic memory-based game where players must
+                repeat an increasingly complex sequence of colors and sounds.
+              </p>
+            </div>
+          </div>
+          <div class="text">
+            <h6>Simon-Game</h6>
+            <div class="links">
+              <a
+                href="https://github.com/khadarbashajilan/Simon-Game"
+                target="_blank"
+                ><i class="fa-brands fa-xl fa-github"></i
+              ></a>
+              <a
+                href="https://khadarbashajilan.github.io/Simon-Game/"
+                target="_blank"
+                ><i class="fa-solid fa-lg fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div></div>
+    </section>
+    <section id="page4">
+      <h2>CONTACT ME</h2>
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+          <input type="hidden" name="access_key" value="d511a852-fd48-427b-8aec-313ca3a036a4">
+          <input type="text" name="name" placeholder="Your Name" class="contactip" required>
+          <input type="email" name="email" placeholder="Your Email" class="contactip" required>
+          <textarea name="message" placeholder="Your Message" rows="6" class="contactip" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+      <div id="dlinks">
+        <a href="https://linkedin.com/in/khadarbashajilan/" target="_blank"><img src="./src/contact/linkedin-round-svgrepo-com.svg" ></a>
+        <a href="http://github.com/khadarbashajilan" target="_blank" style="color: black"><i class="fa-brands fa-github fa-2xl"></i></a>
+        <a href="mailto:khadarbashajilan001@gmail.com" target="_blank"><img src="./src/contact/gmail.png"></a>
+        <a href="https://t.me/khadar_2k23" target="_blank" style="color: black"><i class="fa-brands fa-telegram fa-2xl"></i></a>
+      </div>
+      <div id="copyr">
+        <p style="color: black;">© 2025 Made with 💖</p>
+        </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+      integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+      integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
