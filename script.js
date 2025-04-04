@@ -4,7 +4,7 @@ var nav = gsap.timeline();
 nav.to("nav",{
     opacity:1,
     y:0,
-    duration:0.75,
+    duration:0.5,
     delay:1.3
 })
 
