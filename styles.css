@@ -46,6 +46,7 @@ nav{
     align-content: center;
     position: fixed;
     z-index: 10;
+    opacity: 0;  
     background-color: rgba(255, 255, 255,0.45);
 }
 .nav-items{

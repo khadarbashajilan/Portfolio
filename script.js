@@ -1,9 +1,9 @@
 // navbar animation
 var nav = gsap.timeline();
 
-nav.from("nav",{
-    opacity:0,
-    y:-30,
+nav.to("nav",{
+    opacity:1,
+    y:0,
     duration:0.75,
     delay:1.3
 })
