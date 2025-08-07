@@ -349,7 +349,6 @@ nav{
     align-items: center;
     transition: opacity 0.3s ease-in-out; 
     padding: 25px;
-    font-style: oblique;
     font-weight: 300;
 }
 .img:hover .hovertxt{

@@ -97,17 +97,17 @@ function toggle(){
 }}
 
 
-function Hamburger(){
-    let icon = document.querySelector(".mob-nav .fa-solid");
-    let items = document.querySelector(".mob-items");
-    if(icon.classList.contains('fa-bars')){
-        items.style.display="block";
-        icon.classList.toggle('fa-bars');
-        icon.classList.toggle('fa-xmark');
+// function Hamburger(){
+//     let icon = document.querySelector(".mob-nav .fa-solid");
+//     let items = document.querySelector(".mob-items");
+//     if(icon.classList.contains('fa-bars')){
+//         items.style.display="block";
+//         icon.classList.toggle('fa-bars');
+//         icon.classList.toggle('fa-xmark');
         
-    }else if(icon.classList.contains('fa-xmark')){
-        items.style.display="none";
-        icon.classList.toggle('fa-bars');
-        icon.classList.toggle('fa-xmark');
-    }
-}
+//     }else if(icon.classList.contains('fa-xmark')){
+//         items.style.display="none";
+//         icon.classList.toggle('fa-bars');
+//         icon.classList.toggle('fa-xmark');
+//     }
+// }
