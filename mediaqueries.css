@@ -109,6 +109,7 @@
 /* skills */
 
 @media (max-width: 950px){
+
     #page3 h2{
         font-size: 35px;
     }
@@ -120,6 +121,7 @@
     }
 }
 @media (max-width: 800px){
+  
     /* #page3{
         padding:5rem 0;
     } */
@@ -129,7 +131,8 @@
 }
 
 @media (max-width:730px){
-    
+  
+  
     #page3{
         padding:4rem 0;
     }

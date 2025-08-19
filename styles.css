@@ -284,6 +284,9 @@ nav{
     column-gap: 8rem;
     margin-top: 35px;
 }
+#framew{
+    display:none;
+}
 
 /* Projects */
 

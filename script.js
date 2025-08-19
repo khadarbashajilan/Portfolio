@@ -96,18 +96,19 @@ function toggle(){
     BgColor();
 }}
 
+// Function to check screen width and toggle tools visibility
+function toggleToolsVisibility() {
+  const toolsElement = document.getElementById('framew');
+  if (window.innerWidth <= 732) {
+    toolsElement.style.display = 'none';
+}else{
+      toolsElement.style.display = 'grid';
 
-// function Hamburger(){
-//     let icon = document.querySelector(".mob-nav .fa-solid");
-//     let items = document.querySelector(".mob-items");
-//     if(icon.classList.contains('fa-bars')){
-//         items.style.display="block";
-//         icon.classList.toggle('fa-bars');
-//         icon.classList.toggle('fa-xmark');
-        
-//     }else if(icon.classList.contains('fa-xmark')){
-//         items.style.display="none";
-//         icon.classList.toggle('fa-bars');
-//         icon.classList.toggle('fa-xmark');
-//     }
-// }
+  }
+}
+
+// Run the function when the page loads
+window.addEventListener('DOMContentLoaded', toggleToolsVisibility);
+
+// Run the function when the window is resized
+window.addEventListener('resize', toggleToolsVisibility);
