@@ -127,7 +127,9 @@
         column-gap: 3rem;
     }
 }
+
 @media (max-width:730px){
+    
     #page3{
         padding:4rem 0;
     }
